@@ -6,7 +6,6 @@
     <body>
     <main>
         <h1>John's Arcade Calculator</h1>
-
         <div id = "instructions">
         <p>Welcome to John's Arcade</p>
         <p>For every $1 you get 5 arcade coins</p>
@@ -18,26 +17,18 @@
             <label id ="people">Insert number of people</label>
             <input id = "number-people" type ="number">
             <label id = "birthday">Is it your birthday?</label>
-            
-            <select id = "is-birthday">
-                <option value = "Yes">Yes</option>
-                <option value = "No">No</option>
-            
+            <select id = "is-birthday" onchange="calculate()">
+                <option value = "0">Select Option</option>
+                <option value = "1">Yes</option>
+                <option value = "2">No</option>
             </select>
             <!-- <button onclick="calculate()">Click Me</button> -->
-
         </form>
         <label id = "total">Total: </label>
         <p id="total-coins">Total Arcade coins you receive<div id = "display-total">0 </div></p>
-
-
     </main>
-
     <script src ="script.js"></script>
     </body>
     <footer>
-
-
-
     </footer>
 </html>
