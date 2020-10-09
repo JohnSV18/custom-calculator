@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <main>
+        <h1>John's Arcade Calculator</h1>
+
+        <div id = "instructions">
+        <p>Welcome to John's Arcade</p>
+        <p>For every $1 you get 5 arcade coins</p>
+        <p>BONUS! If it's your birthday, then you get extra coins</p>
+        </div>
+        <form>
+            <label id = "bills">Insert number of bills</label>
+            <input id = "number" type ="number">
+            <label id ="people">Insert number of people</label>
+            <input id = "number-people" type ="number">
+            <label id = "birthday">Is it your birthday?</label>
+            
+            <select id = "is-birthday">
+                <option value = "Yes">Yes</option>
+                <option value = "No">No</option>
+            
+            </select>
+            <!-- <button onclick="calculate()">Click Me</button> -->
+
+        </form>
+        <label id = "total">Total: </label>
+        <p id="total-coins">Total Arcade coins you receive<div id = "display-total">0 </div></p>
+
+
+    </main>
+
+    <script src ="script.js"></script>
+    </body>
+    <footer>
+
+
+
+    </footer>
+</html>
